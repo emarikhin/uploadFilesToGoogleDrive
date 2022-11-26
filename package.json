@@ -1,0 +1,20 @@
+{
+  "name": "uploadlogstogoogledrive",
+  "version": "1.0.0",
+  "description": "uploads files to Google Drive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gene Marr",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.1",
+    "config": "^3.3.8",
+    "fs": "0.0.1-security",
+    "google-auth-library": "^8.7.0",
+    "googleapis": "^109.0.1",
+    "path": "^0.12.7",
+    "process": "^0.11.10"
+  }
+}
